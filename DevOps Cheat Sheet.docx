@@ -1,4 +1,23 @@
 ﻿------------------------------------------------------------------
+				Git
+------------------------------------------------------------------
+
+git config --global user.name "Sarang"
+git config --global user.email "sarangrana@gmail.com"
+git config --list
+
+
+
+git clone https://github.com/sarangrana/godrepo.git
+git clone git@github.com:sarangrana/godrepo.git
+git status
+git add <file-name>
+git commit -m "Multiple Instance Code Implemented"
+
+
+
+
+------------------------------------------------------------------
 				Kubernetes
 ------------------------------------------------------------------
 1. To remotely access your cluster from another machine
@@ -228,6 +247,9 @@ find . -type f -print | sed 's/ /\\ /g' | xargs grep -i "your text here"
 2. Find files via filename
 locate <file-name>
 
+3. To check port status
+sudo netstat -ntlp
+
 
 
 
@@ -359,9 +381,7 @@ docker container ls
 docker container ls --all
 docker container ls -aq
 
-
-
-
+Ctrl + P + Q = To exit container without killing it
 
 1. Docker Pull <imagename>
 	- Pull the image from web and download it to local.
